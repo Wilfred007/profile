@@ -20,7 +20,7 @@ export default function DeveloperProfile() {
       description: "A blockchain music sharing and streaming platform that enables upload their music and listeners stream high quality audio.",
       tags: ["Nextjs", "Node.js", "MongoDB", "IPFS"],
       link: "https://www.audioblocks.org",
-      image: "/https://www.audioblocks.org/",
+      image: "/adb.jpg?height=200&width=400",
     },
     {
       id: 2,
@@ -28,15 +28,15 @@ export default function DeveloperProfile() {
       description: "An identity management platform that helps businesses secure their user data and prevent unauthorized access.",
       tags: ["Next.js", "Solidity", "Tailwind CSS", "TypeScript"],
       link: "https://www.guardzero.xyz",
-      image: "/me.jpg?height=200&width=400",
+      image: "/grd.jpg?height=400&width=400",
     },
     {
       id: 3,
       title: "Green Recycle Plus",
       description: "A waste management platform that connects waste collectors with households and businesses for recycling.",
       tags: ["EthersJS", "React", "Solidity"],
-      link: "#",
-      image: "/placeholder.svg?height=200&width=400",
+      link: "https://greencycleplus.vercel.app",
+      image: "/gcp.jpg?height=300&width=400",
     },
   ]
 
