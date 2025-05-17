@@ -38,6 +38,24 @@ export default function DeveloperProfile() {
       link: "https://greencycleplus.vercel.app",
       image: "/gcp.jpg?height=300&width=400",
     },
+     {
+      id: 4,
+      title: "RichBoss Realty",
+      description: "To Solve Global Housing Problems By Harnessing The Power of Technology, Innovation and Other Sustainable Solutions.",
+      tags: ["React", "Nodejs"],
+      link: "https://richbossrealty.com/",
+      image: "/gcp.jpg?height=300&width=400",
+    },
+     {
+      id: 5,
+      title: "Chris Feddek Paints",
+      description: "Welcome to Chris Feddek Paints, your premier destination for high-quality paints and coatings.",
+      tags: ["React", "Nodejs"],
+      link: "https://chrisfeddek.com.ng/",
+      image: "/gcp.jpg?height=300&width=400",
+    },
+    
+    
   ]
 
   const skills = [
@@ -81,7 +99,7 @@ export default function DeveloperProfile() {
               transition={{ delay: 0.3, duration: 0.5 }}
               className="text-xl text-muted-foreground mt-2"
             >
-              Software Engineer
+              Software Developer
             </motion.p>
             <motion.div
               initial={{ opacity: 0 }}
@@ -234,12 +252,14 @@ export default function DeveloperProfile() {
                     ))}
                   </div>
                 </CardContent>
-                <CardFooter>
+                {/* <CardFooter>
                   <Button className="w-full group">
-                    Download Resume
+                    <Link href="/https://docs.google.com/document/d/1jTQjzEtd977Ct1V9Xsp_shuatY5dtsMP/edit">
+                    View Resume
+                    </Link>
                     <ChevronRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Button>
-                </CardFooter>
+                </CardFooter> */}
               </Card>
             </motion.div>
           </TabsContent>
