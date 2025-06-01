@@ -54,6 +54,14 @@ export default function DeveloperProfile() {
       link: "https://chrisfeddek.com.ng/",
       image: "/gcp.jpg?height=300&width=400",
     },
+    {
+      id: 5,
+      title: "AI Text to Image Generator",
+      description: "An AI-powered tool that generates images from text descriptions, allowing users to create unique visuals effortlessly.",
+      tags: ["React", "Nodejs"],
+      link: "https://ai-text-to-image-generator-jnme.vercel.app/",
+      image: "/gcp.jpg?height=300&width=400",
+    },
     
     
   ]
@@ -255,6 +263,7 @@ export default function DeveloperProfile() {
                 {/* <CardFooter>
                   <Button className="w-full group">
                     <Link href="/https://docs.google.com/document/d/1jTQjzEtd977Ct1V9Xsp_shuatY5dtsMP/edit">
+                    https://ai-text-to-image-generator-jnme.vercel.app/
                     View Resume
                     </Link>
                     <ChevronRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
