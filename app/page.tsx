@@ -62,6 +62,14 @@ export default function DeveloperProfile() {
       link: "https://ai-text-to-image-generator-jnme.vercel.app/",
       image: "/gcp.jpg?height=300&width=400",
     },
+    {
+      id: 5,
+      title: "Dance Realm X",
+      description: "A Professional dance academy website for dance instructors and students .",
+      tags: ["React", "Nodejs"],
+      link: "https://livetestdomain.com/",
+      image: "https://www.google.com/imgres?q=dance&imgurl=https%3A%2F%2Fwww.rockstaracademy.com%2Flib%2Fimages%2Fnews%2Fcontemporary-dance-for-beginners.jpeg&imgrefurl=https%3A%2F%2Fwww.rockstaracademy.com%2Fblog%2Fcontemporary-dance-for-beginners-this-is-what-you-need-to-do&docid=9a5QKmaSoQ9jGM&tbnid=QKb6do9wxg3yrM&vet=12ahUKEwjTr-m2i_eOAxXuT0EAHVnTL10QM3oECBUQAA..i&w=1350&h=900&hcb=2&ved=2ahUKEwjTr-m2i_eOAxXuT0EAHVnTL10QM3oECBUQAA",
+    },
     
     
   ]
